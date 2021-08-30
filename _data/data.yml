@@ -1,108 +1,135 @@
 name: Jinbae Park
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: qkrwlsqo94@gmail.com
-  github: creaiter
-  linkedin: jinbae-park
+  email: #qkrwlsqo94@gmail.com
+  github: #creaiter
+  linkedin: #jinbae-park
   phone: 
   gitlab: 
   twitter: 
 
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+interests:
+  - domain: Network Compression
+  - domain: Efficient Neural Networks
+  - domain: Deployment on Edge Devices
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MS in Computer Science
+    time: Mar 2020 - Feb 2022
+    university: Kyung Hee University
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: BS in Computer Science
+    time: Mar 2013 - Feb 2020
+    university: Kyung Hee University
+
+languages:
+  - idiom: Korean
+  - idiom: English (OPIc IH)
 
 skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+  # - category: Backend
+  #   skill: 
+  #     - Go
+  #     - Rust
+  # - category: Frontend
+  #   skill:
+  #     - React
+  #     - Typescript
+  # - category: DevOps
+  #   skill:
+  #     - Docker
+  #     - Kubernetes 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  My research domain is highly related to obtaining efficient neural networks by applying compression techniques, such as
+  quantization, pruning, and distillation, for deployment of the networks on edge devices.
+
+# Publications
+publications:
+  # - title: Selectively Regularized Pruning
+  - title: "Centralized Quantization: Preserving a Few Large Weights to Relieve theDegradation in Accuracy by Ternary Weights"
+    link: 
+    authors: Jinbae Park, Sung-Ho Bae
+    conference: "[Submitted]"
+
+  - title: Distilling Global and Local Logits with Densely Connected Relations
+    link: 
+    authors: Youmin Kim, Jinbae Park, YounHo Jang, Muhammad Ali, Tae-Hyun Oh, Sung-Ho Bae
+    conference: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021
+
+  - title: Search for Optimal Data Augmentation Policy for Environmental Sound Classification with Deep Neural Networks
+    link: "https://www.koreascience.or.kr/article/JAKO202001955917251.page"
+    authors: Jinbae Park, Teerath Kumar, Sung-Ho Bae
+    conference: Journal of Broadcast Engineering (JBE), 25.6, 2020
+
+# Projects
+projects:
+  # - title: CAPEON
+  - title: A Study on Compression of Deep Neural Networks by Quantization and Pruning
+    time: Jan 2021 - Dec 2021
+    link: https://github.com/mlvc-lab/Edge_Deployment
+    institution: IITP, Republic of Korea
+    details: Deployment of lightened networks on edge devices, such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.
+
+  - title: Deep Model Compression based on Joint Learning for Vision Applications
+    time: Aug 2020 - Dec 2020
+    link: https://github.com/mlvc-lab/AIChallenge_4th_Round1
+    institution: IITP, Republic of Korea
+    details: 4th place prize in the challenge.
+
+  - title: Accurate Voice Source Localization on Drones based on Deep Neural Networks
+    time: Sept 2019 - Dec 2020
+    link: https://github.com/IRIS-AUDIO/challenge
+    institution: IITP, Republic of Korea
+    details: 1st place prize in the challenge.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
+  - title: Compression of the Regression Models for Face Landmark Detection
+    time: Sept 2018 - Jan 2019
+    link: https://medium.com/@hyprsense/compressing-a-cascaded-regression-model-how-to-sparsify-the-matrix-4c4013cee47c
+    institution: Research internship, Hyprsense Inc., USA
+    details: Building a compressed cascaded regression model with the sparsification of docomposed weight matrices by L1 based regularization methods.
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
-
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
-projects:
-  - title: Cool Project 
+  - title: Developing of C Program for Accelerating Convolutional Neural Networks on FPGA boards
+    time: Jun 2018 - Oct 2018
     link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+    institution: Research assistant, Prof. Nikil Dutt, University of California Irvine, USA
+    details: Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.
 
-  - title: Cool Project 
+  - title: Swapping Face and Facial Expressions of People
+    time: Jan 2018 - Feb 2018
     link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+    institution: Research internship, Alchera Inc., Republic of Korea
+    details: Changing face and facial expressions of different people using the extracted face landmarks.
+# experience:
+#   - role: Software Engineer
+#     time: 2020-Present
+#     company: Google
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+#       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+#       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+#       fugiat nulla pariatur.
+#     technologies_used: | 
+#       Go, Angular, Typescript, C++
+  
+#   - role: Researcher
+#     time: 2016-2020
+#     company: Microsoft
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+#       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+#       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+#       fugiat nulla pariatur.
+#     technologies_used: | 
+#       Python, Tensorflow, Keras, Matlab
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# Others
+others: true

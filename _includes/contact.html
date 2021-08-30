@@ -2,6 +2,14 @@
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
+
+    <div class="contact-item" style='letter-spacing:10px'>
+        <a href="mailto:qkrwlsqo94@gmail.com" style="color: var(--fg-color);"><i class="fas fa-envelope fa-lg"></i></a>
+        <a href="https://github.com/creaiter" style="color: var(--fg-color);"><i class="fab fa-github fa-lg"></i></a>
+        <a href="https://scholar.google.com/citations?user=e4UxwckAAAAJ" style="color: var(--fg-color);"><i class="fas fa-graduation-cap fa-lg"></i></a>
+        <a href="https://linkedin.com/in/jinbae-park" style="color: var(--fg-color);"><i class="fab fa-linkedin fa-lg"></i></a>
+    </div>
+
     {% if contact.email %}
         <div class="contact-item">
             <i data-feather="mail"></i>
@@ -32,7 +40,7 @@
     {% if contact.linkedin %}
         <div class="contact-item">
             <i data-feather="linkedin"></i>
-            <a href="https://linkedin.com/in/jinbae-park-161233170">
+            <a href="https://linkedin.com/in/{{contact.linkedin}}">
                 {{contact.linkedin}}
             </a>
         </div>

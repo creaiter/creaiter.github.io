@@ -1,0 +1,11 @@
+{% assign interests = site.data.data.interests %}
+{% if interests %}
+<section class="interests">
+    <div class="title">Interests</div>
+    {% for ints in interests %}
+        <div class="interests-item">
+            <div class="domain">{{ints.domain}}</div>
+        </div>
+    {% endfor %}
+</section>
+{% endif %}

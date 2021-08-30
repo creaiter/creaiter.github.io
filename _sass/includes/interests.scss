@@ -1,19 +1,13 @@
-.education {
+.interests {
     margin-bottom: 30px;
     .title {
         @include sub-header;
     }
-    .education-item {
+    .interests-item {
         margin-bottom: 5px;
-        .degree {
+        .domain {
             @include body-text;
             font-weight: bold;
-        }
-        .university {
-            @include body-text;
-        }
-        .time {
-            @include body-text;
         }
     }
 }

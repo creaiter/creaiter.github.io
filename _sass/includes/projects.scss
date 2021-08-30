@@ -4,11 +4,40 @@
     }
     .project {
         margin-bottom: 20px;
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            @include body-text; 
+        }
         .project-link {
             @include body-text;
         }
         .details {
             @include body-text;
+        }
+
+        .time {
+            // font-size: 12px;
+            float: right;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+            font-style: normal;
+        }
+        .institution {
+            @include body-text; 
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+            font-style: italic;
+        }
+        // For others
+        .others-title{
+            @include sub-header;
+            margin-bottom: 5px;
+        }
+        .content {
+            // text-decoration: none;
+            // font-weight: bold;
+            @include body-text; 
         }
     }
 }

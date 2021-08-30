@@ -4,7 +4,7 @@
     }
     .publication-items {
         .publication-item {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             .publication-title {
                 a {
                     text-decoration: none;
@@ -19,6 +19,7 @@
                 @include body-text; 
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
+                font-style: italic;
             }
         }
     }
