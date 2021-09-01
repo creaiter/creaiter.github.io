@@ -3,7 +3,7 @@
         @include header;
     }
     .project {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         a {
             text-decoration: none;
             font-weight: bold;
@@ -32,12 +32,11 @@
         // For others
         .others-title{
             @include sub-header;
-            margin-bottom: 5px;
         }
         .content {
             // text-decoration: none;
             // font-weight: bold;
-            @include body-text; 
+            @include body-text;
         }
     }
 }
