@@ -1,0 +1,43 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+<section class="common">
+    <h2 class="title">Projects</h2>
+    {% for p in projects%}
+        <div class="items">
+            <div class="item-title">{{p.title}}</div>
+            <div class="item-inst">{{p.institution}}
+                <span class="time">{{p.time}}</span>
+            </div>
+            <div class="item-content">{{p.onesentence}}
+                {% if p.description or p.role or p.links %}
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('p-grow{{forloop.index}}', 'p-button{{forloop.index}}')" value="details" id="p-button{{forloop.index}}">
+                    </span>
+                {% endif %}
+            </div>
+            <div class="detail" id="p-grow{{forloop.index}}">
+                <div class='measuringWrapper'>
+                    {% if p.description %}
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>{{p.description}}
+                        </div>
+                    {% endif %}
+                    {% if p.role %}
+                        <div class="item-content">
+                            <span class="detail-key">Roles: </span>{{p.role}}
+                        </div>
+                    {% endif %}
+                    {% if p.links %}
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            {% for link in p.links %}
+                                [<a class="content-link" href="{{link.value}}">{{link.key}}</a>]
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</section>
+{% endif %}

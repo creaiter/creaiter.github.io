@@ -38,5 +38,36 @@
             // font-weight: bold;
             @include body-text;
         }
+
+        // .measuringWrapper {
+        //     @include body-text;
+        // }
+        // .butt{
+        //     border-style: none;
+        //     background: none;
+        //     font: 16px Serif;
+        //     color: blue;
+        //     margin: 0 0 0px 0;
+        // }
+        // .butt:hover{
+        //     color:black;
+        // }
     }
 }
+
+// #more-button{border-style:none;background:none;font:16px Serif;color:blue;margin: 0 0 0px 0;}
+
+// #grow input:checked{color:red;}
+
+// #more-button:hover{color:black;}
+
+// #grow {
+//     -moz-transition: height .1s;
+//     -ms-transition: height .1s;
+//     -o-transition: height .1s;
+//     -webkit-transition: height .1s;
+//     transition: height .1s;
+//     height: 0;
+//     overflow: hidden;
+//   }
+

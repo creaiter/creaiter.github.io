@@ -1,0 +1,73 @@
+.common {
+    .title {
+        @include header;
+    }
+    .items {
+        margin-bottom: 15px;
+        // For each item
+        .item-title {
+            @include body-text; 
+            font-weight: bold;
+        }
+        .item-content {
+            @include body-text; 
+            line-height: 1.3;
+            .content-link {
+                color: var(--fg-color);
+            }
+            .content-link:hover {
+                color: var(--fg-color-body);
+                text-decoration-color: var(--fg-color-body);
+            }
+        }
+        .item-inst {
+            @include body-text; 
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+            font-style: italic;
+        }
+        // For time
+        .time {
+            float: right;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+            font-style: normal;
+        }
+        // For details
+        .bttn-loc {
+            float: right;
+        }
+        .bttn {
+            border-style: none;
+            background: none;
+            font-size: 11px;
+            color: var(--fg-color);
+            text-decoration: underline;
+            text-decoration-color: var(--fg-color);
+            text-align: center;
+            //margin: 0 0 0px 0;
+        }
+        .bttn:hover {
+            color: var(--fg-color-body);
+            text-decoration-color: var(--fg-color-body);
+        }
+        .detail {
+            -moz-transition: height .1s;
+            -ms-transition: height .1s;
+            -o-transition: height .1s;
+            -webkit-transition: height .1s;
+            transition: height .1s;
+            height: 0;
+            overflow: hidden;
+            border-left: 1px solid var(--fg-color-gray);
+            margin: 5px 0px 0px 10px;
+            padding-left: 10px;
+        }
+        .detail-key {
+            @include body-text;
+            font-size: 13px;
+            font-weight: bold;
+            color: var(--fg-color);
+        }
+    }
+}

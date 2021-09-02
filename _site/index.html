@@ -5,11 +5,6 @@
     <!-- Styles -->
     <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="https://kit.fontawesome.com/35ecbf2ff1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     <!-- Meta tags -->
     <meta charset="utf-8">
@@ -19,6 +14,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     
     <title>Creaiter</title>
+
+    <script src="https://kit.fontawesome.com/35ecbf2ff1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -66,11 +63,11 @@
         </div>
     
         <div class="interests-item">
-            <div class="domain">Efficient Neural Networks</div>
+            <div class="domain">Efficient Learning</div>
         </div>
     
         <div class="interests-item">
-            <div class="domain">Deployment on Edge Devices</div>
+            <div class="domain">Deployment on Edge</div>
         </div>
     
 </section>
@@ -105,10 +102,10 @@
     
 </section>
 
-      
-
-      
-
+      <!-- 
+ -->
+      <!-- 
+ -->
     </div>
 
     <div class="main">
@@ -123,197 +120,310 @@ quantization, pruning, and distillation, for deployment of the networks on edge 
 
       
 
-<section class="publications">
+<section class="common">
     <h2 class="title">Publications</h2>
-    <div class="publication-items">
-        
-            <div class="publication-item">
-                <div class="publication-title">
-                    <a href="">Centralized Quantization: Preserving a Few Large Weights to Relieve theDegradation in Accuracy by Ternary Weights</a>
-                </div>
-                <div class="authors">Jinbae Park, Sung-Ho Bae</div>
-                <div class="conference">[Submitted]</div>   
+    
+        <div class="items">
+            <div class="item-title">Centralized Quantization: Preserving a Few Large Weights to Relieve theDegradation in Accuracy by Ternary Weights</div>
+            <div class="item-content">Jinbae Park, Sung-Ho Bae</div>
+            <div class="item-inst">[Submitted]
+                
             </div>
-        
-            <div class="publication-item">
-                <div class="publication-title">
-                    <a href="">Distilling Global and Local Logits with Densely Connected Relations</a>
+            <div class="detail" id="pub-grow1">
+                <div class='measuringWrapper'>
+                    
+                    
+                    
                 </div>
-                <div class="authors">Youmin Kim, Jinbae Park, YounHo Jang, Muhammad Ali, Tae-Hyun Oh, Sung-Ho Bae</div>
-                <div class="conference">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021</div>   
             </div>
-        
-            <div class="publication-item">
-                <div class="publication-title">
-                    <a href="https://www.koreascience.or.kr/article/JAKO202001955917251.page">Search for Optimal Data Augmentation Policy for Environmental Sound Classification with Deep Neural Networks</a>
+        </div>
+    
+        <div class="items">
+            <div class="item-title">Distilling Global and Local Logits with Densely Connected Relations</div>
+            <div class="item-content">Youmin Kim, Jinbae Park, YounHo Jang, Muhammad Ali, Tae-Hyun Oh, Sung-Ho Bae</div>
+            <div class="item-inst">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('pub-grow2', 'pub-button2')" value="details" id="pub-button2">
+                    </span>
+                
+            </div>
+            <div class="detail" id="pub-grow2">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Keywords: </span>Sound Classification, Data Augmentation, Augmentation Search
+                        </div>
+                    
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            
+                                [<a class="content-link" href="">TBC</a>]
+                            
+                        </div>
+                    
                 </div>
-                <div class="authors">Jinbae Park, Teerath Kumar, Sung-Ho Bae</div>
-                <div class="conference">Journal of Broadcast Engineering (JBE), 25.6, 2020</div>   
             </div>
-        
-    </div>
+        </div>
+    
+        <div class="items">
+            <div class="item-title">Search for Optimal Data Augmentation Policy for Environmental Sound Classification with Deep Neural Networks</div>
+            <div class="item-content">Jinbae Park, Teerath Kumar, Sung-Ho Bae</div>
+            <div class="item-inst">Journal of Broadcast Engineering (JBE), 25.6, 2020
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('pub-grow3', 'pub-button3')" value="details" id="pub-button3">
+                    </span>
+                
+            </div>
+            <div class="detail" id="pub-grow3">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Keywords: </span>Sound Classification, Data Augmentation, Augmentation Search
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Summary: </span>We propose a finite way to find an augmentation policy to improve the accuracy in the environmental sound classificiation task.
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            
+                                [<a class="content-link" href="https://www.koreascience.or.kr/article/JAKO202001955917251.page">article</a>]
+                            
+                                [<a class="content-link" href="https://www.koreascience.or.kr/article/JAKO202001955917251.pdf">pdf</a>]
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
 </section>
 
       
 
-<section class="projects">
+<section class="common">
     <h2 class="title">Projects</h2>
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="https://github.com/mlvc-lab/Edge_Deployment">
-                    A Study on Compression of Deep Neural Networks by Quantization and Pruning
-                </a>
-            </span>
-            <div class="institution">IITP, Republic of Korea<span class="time">Jan 2021 - Dec 2021</span></div>
-            <span class="details">Deployment of lightened networks on edge devices, such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.</span>
+        <div class="items">
+            <div class="item-title">A Study on Compression of Deep Neural Networks by Quantization and Pruning</div>
+            <div class="item-inst">IITP, Republic of Korea
+                <span class="time">Jan 2021 - Dec 2021</span>
+            </div>
+            <div class="item-content">Deployment of lightened networks on edge devices, such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('p-grow1', 'p-button1')" value="details" id="p-button1">
+                    </span>
+                
+            </div>
+            <div class="detail" id="p-grow1">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>dfdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Roles: </span>dfdfsdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            
+                                [<a class="content-link" href="https://github.com/mlvc-lab/Edge_Deployment">github</a>]
+                            
+                        </div>
+                    
+                </div>
+            </div>
         </div>
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="https://github.com/mlvc-lab/AIChallenge_4th_Round1">
-                    Deep Model Compression based on Joint Learning for Vision Applications
-                </a>
-            </span>
-            <div class="institution">IITP, Republic of Korea<span class="time">Aug 2020 - Dec 2020</span></div>
-            <span class="details">4th place prize in the challenge.</span>
+        <div class="items">
+            <div class="item-title">Deep Model Compression based on Joint Learning for Vision Applications</div>
+            <div class="item-inst">IITP, Republic of Korea
+                <span class="time">Aug 2020 - Dec 2020</span>
+            </div>
+            <div class="item-content">4th place prize in the challenge.
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('p-grow2', 'p-button2')" value="details" id="p-button2">
+                    </span>
+                
+            </div>
+            <div class="detail" id="p-grow2">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>dfdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Roles: </span>dfdfsdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            
+                                [<a class="content-link" href="https://github.com/mlvc-lab/AIChallenge_4th_Round1">github</a>]
+                            
+                        </div>
+                    
+                </div>
+            </div>
         </div>
     
-        <div class="project">
-            <span>
-                <a class="project-link" href="https://github.com/IRIS-AUDIO/challenge">
-                    Accurate Voice Source Localization on Drones based on Deep Neural Networks
-                </a>
-            </span>
-            <div class="institution">IITP, Republic of Korea<span class="time">Sept 2019 - Dec 2020</span></div>
-            <span class="details">1st place prize in the challenge.</span>
+        <div class="items">
+            <div class="item-title">Accurate Voice Source Localization on Drones based on Deep Neural Networks</div>
+            <div class="item-inst">IITP, Republic of Korea
+                <span class="time">Sept 2019 - Dec 2020</span>
+            </div>
+            <div class="item-content">1st place prize in the challenge.
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('p-grow3', 'p-button3')" value="details" id="p-button3">
+                    </span>
+                
+            </div>
+            <div class="detail" id="p-grow3">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>dfdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Roles: </span>dfdfsdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            
+                                [<a class="content-link" href="https://github.com/IRIS-AUDIO/challenge">github</a>]
+                            
+                        </div>
+                    
+                </div>
+            </div>
         </div>
     
+</section>
+
+      
+
+<section class="common">
+    <h2 class="title">Experience</h2>
+    
+        <div class="items">
+            <div class="item-title">Compression of the Regression Models for Face Landmark Detection</div>
+            <div class="item-inst">Research internship, Hyprsense Inc., USA
+                <span class="time">Sept 2018 - Jan 2019</span>
+            </div>
+            <div class="item-content">Building a compressed cascaded regression model with the sparsification of docomposed weight matrices by L1 based regularization methods.
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('exp-grow1', 'exp-button1')" value="details" id="exp-button1">
+                    </span>
+                
+            </div>
+            <div class="detail" id="exp-grow1">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>dfdf
+                        </div>
+                    
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Materials: </span>
+                            
+                                [<a class="content-link" href="https://medium.com/@hyprsense/compressing-a-cascaded-regression-model-how-to-sparsify-the-matrix-4c4013cee47c">blog</a>]
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="items">
+            <div class="item-title">Developing of C Program for Accelerating Convolutional Neural Networks on FPGA boards</div>
+            <div class="item-inst">Research assistant, Prof. Nikil Dutt, University of California Irvine, USA
+                <span class="time">Jun 2018 - Oct 2018</span>
+            </div>
+            <div class="item-content">Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('exp-grow2', 'exp-button2')" value="details" id="exp-button2">
+                    </span>
+                
+            </div>
+            <div class="detail" id="exp-grow2">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>dfdf
+                        </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="items">
+            <div class="item-title">Swapping Face and Facial Expressions of People</div>
+            <div class="item-inst">Research internship, Alchera Inc., Republic of Korea
+                <span class="time">Jan 2018 - Feb 2018</span>
+            </div>
+            <div class="item-content">Changing face and facial expressions of different people using the extracted face landmarks.
+                
+                    <span class="bttn-loc">
+                        <input class="bttn" type="button" onclick="growDiv('exp-grow3', 'exp-button3')" value="details" id="exp-button3">
+                    </span>
+                
+            </div>
+            <div class="detail" id="exp-grow3">
+                <div class='measuringWrapper'>
+                    
+                        <div class="item-content">
+                            <span class="detail-key">Description: </span>dfdf
+                        </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    
+</section>
+
+      
+
+<section class="common">
+    <h2 class="title">Others</h2>
+    <div class="items">
+        <div class="item-content">
+            - Lab leader of <a class="content-link" href="https://sites.google.com/khu.ac.kr/mlvclab/team">MLVC</a>, Kyung Hee University
+            <span class="time">Jan 2021 - Dec 2021</span>
+        </div>
+        <div class="item-content">
+            - Teaching assistant at a deep learning course using CUDA programming
+        </div>
+    </div>
 </section>
 
       <!-- 
-
-<section class="experiance">
-    <h2 class="title">Experience</h2>
-    
-        <div class="experience-item">
-            <div class="role">
-                
-            </div>
-            <div class="company">
-                 
-                <span class="time">Sept 2018 - Jan 2019</span>
-            </div> 
-            <div class="details">Building a compressed cascaded regression model with the sparsification of docomposed weight matrices by L1 based regularization methods.</div>
-            <p class="technologies">Technologies Used: </p>
-        </div>
-       
-    
-        <div class="experience-item">
-            <div class="role">
-                
-            </div>
-            <div class="company">
-                 
-                <span class="time">Jun 2018 - Oct 2018</span>
-            </div> 
-            <div class="details">Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.</div>
-            <p class="technologies">Technologies Used: </p>
-        </div>
-       
-    
-        <div class="experience-item">
-            <div class="role">
-                
-            </div>
-            <div class="company">
-                 
-                <span class="time">Jan 2018 - Feb 2018</span>
-            </div> 
-            <div class="details">Changing face and facial expressions of different people using the extracted face landmarks.</div>
-            <p class="technologies">Technologies Used: </p>
-        </div>
-       
-    
-</section>
  -->
-
-
-
-<section class="projects">
-    <h2 class="title">Experience</h2>
-    
-        <div class="project">
-            <span>
-                <a class="project-link" href="https://medium.com/@hyprsense/compressing-a-cascaded-regression-model-how-to-sparsify-the-matrix-4c4013cee47c">
-                    Compression of the Regression Models for Face Landmark Detection
-                </a>
-            </span>
-            <div class="institution">Research internship, Hyprsense Inc., USA<span class="time">Sept 2018 - Jan 2019</span></div>
-            <span class="details">Building a compressed cascaded regression model with the sparsification of docomposed weight matrices by L1 based regularization methods.</span>
-        </div>
-    
-        <div class="project">
-            <span>
-                <a class="project-link" href="">
-                    Developing of C Program for Accelerating Convolutional Neural Networks on FPGA boards
-                </a>
-            </span>
-            <div class="institution">Research assistant, Prof. Nikil Dutt, University of California Irvine, USA<span class="time">Jun 2018 - Oct 2018</span></div>
-            <span class="details">Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.</span>
-        </div>
-    
-        <div class="project">
-            <span>
-                <a class="project-link" href="">
-                    Swapping Face and Facial Expressions of People
-                </a>
-            </span>
-            <div class="institution">Research internship, Alchera Inc., Republic of Korea<span class="time">Jan 2018 - Feb 2018</span></div>
-            <span class="details">Changing face and facial expressions of different people using the extracted face landmarks.</span>
-        </div>
-    
-</section>
-
-      
-
-<section class="projects">
-    <h2 class="title">Others</h2>
-    <div class="project">
-        <!-- <h4 class="others-title">Others</h4> -->
-        <span class="content">
-            -
-            <span style="font-weight: bold;">
-                Manager at
-                <a class="project-link" href="https://sites.google.com/khu.ac.kr/mlvclab/team" style="text-decoration: underline;">MLVC</a>
-                Lab.<span style="font-weight: normal;">, Kyung Hee University</span>
-                <span class="time">Jan 2021 - Dec 2021</span>
-            </span>
-        </span>
-        <br>
-        <span class="content">
-            - Teaching assistant at a deep learning course using CUDA programming
-            <span class="time">
-                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#others-1" style="font-size: 8px;">Show details</button>
-            </span>
-            <div id="others-1" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-        </span>
-        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-        <div id="demo" class="collapse">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-    </div>
-
-</section>
-
-      
-
     </div>
   </div>
 </div>
