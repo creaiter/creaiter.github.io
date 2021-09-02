@@ -98,43 +98,60 @@ publications:
 # Projects
 projects:
   # - title: CAPEON
+
   - title: A Study on Compression of Deep Neural Networks by Quantization and Pruning
     time: Jan 2021 - Dec 2021
     institution: IITP, Republic of Korea
-    onesentence: 
+    onesentence: Deployment of compressed models on edge devices.
     details:
       - key: Description
-        value: Deployment of lightened networks on edge devices, such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.
-      - key: Role
-        value: dfdf
-      - key: Technologies used
-        value: Python, Tensorflow, Keras, Matlab
+        value: |
+          Development of the efficient quantization and pruning methods by dynamic training and 
+          the combination of them to obtain the high compression ratio.
+          Deployment of the lightened models on several edge devices constrained in harwarde resource,
+          such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.
+      - key: Technologies
+        value: PyTorch Mobile, NVIDIA TensorRT, ONNX # & runtime, TensorFlow Lite
     links:
       - key: github
         value: https://github.com/mlvc-lab/Edge_Deployment
 
-  - title: Deep Model Compression based on Joint Learning for Vision Applications
+  - title: A Challenge for Deep Model Compression based on Joint Learning with Vision Applications
     time: Aug 2020 - Dec 2020
     institution: IITP, Republic of Korea
     onesentence: 4th place prize in the challenge.
     details:
       - key: Description
-        value: dfdf
-      - key: Role
-        value: dfdf
+        value: |
+          Compressing the models classifying images and detecting objects by tyring various methods,
+          e.g., data augmentation, quantization, lightweight architecture, etc.
+      - key: Roles
+        value: |
+          i) Taking responsibility for quantization implementation to reduce model size;
+          ii) Combinating the techniques, such as quantization, pruning, and distillation with managing the overall codes;
+          iii) Applying NVIDIA DALI and TensorRT to accelerate the inference procedure; and
+          iV) Optimizing minor factors, such as image size, confidence threshold, removing letter-box, etc.
     links:
       - key: github
         value: https://github.com/mlvc-lab/AIChallenge_4th_Round1
 
-  - title: Accurate Voice Source Localization on Drones based on Deep Neural Networks
+  - title: A Challenge for Accurate Voice Source Localization on Drones based on Deep Neural Networks
     time: Sept 2019 - Dec 2020
     institution: IITP, Republic of Korea
     onesentence: 1st place prize in the challenge.
     details:
       - key: Description
-        value: dfdf
-      - key: Role
-        value: dfdf
+        value: |
+          The goal of this project is to localize the activity and of human voice calling for rescue
+          and the direction of arrival of the human, even though there is very loud noise from the drones in flight.
+      - key: Roles
+        value: |
+          i) Augmenting a single channel voice by convoling to generate a double channel one having an angle
+          and by adding environmental sound and drone sound as noise;
+          ii) Designing a data preprocess step to concentrate on the quiet section in the noisy audio;
+          iii) Analyzing how the models distinguish the angle of voice using GCC gram features,
+          varing the intensity of noise; and
+          iv) Training models with different conditions to improve the performance.
     links:
       - key: github
         value: https://github.com/IRIS-AUDIO/challenge
@@ -142,39 +159,48 @@ projects:
 
 # Experience
 experience:
-  - title: Compression of the Regression Models for Face Landmark Detection
+  - title: Compressing A Cascaded Regression Model for Facial Landmark Detection
     time: Sept 2018 - Jan 2019
-    institution: Research internship, Hyprsense Inc., USA
-    onesentence: Building a compressed cascaded regression model with the sparsification of docomposed weight matrices by L1 based regularization methods.
+    institution: Hyprsense Inc., USA
+    position: Research internship
     details:
       - key: Description
-        value: dfdf
-      - key: Role
-        value: dfdf
+        value: |
+          Building a compressed cascaded regression model with the sparsification of docomposed
+          weight matrices by L1 based regularization methods.<br>
+          A goal of this project is building a sparse cascaded regression model through sparse approximation.
+          Methodically, we exploited various regularization methods (ElasticNet, group Lasso and exponential
+          Lasso, etc) to select features and make sparse matrices. Furthermore, re-training was conducted
+          after matrix factorization to compensate a loss of the factorization. 
     links:
       - key: blog
         value: https://medium.com/@hyprsense/compressing-a-cascaded-regression-model-how-to-sparsify-the-matrix-4c4013cee47c
   
   - title: Developing of C Program for Accelerating Convolutional Neural Networks on FPGA boards
     time: Jun 2018 - Oct 2018
-    institution: Research assistant, Prof. Nikil Dutt, University of California Irvine, USA
-    onesentence: Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.
+    institution: Prof. Nikil Dutt, University of California Irvine, USA
+    position: Research assistant
     details:
       - key: Description
-        value: dfdf
-      - key: Role
-        value: dfdf
+        value: |
+          Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.<br>
+          This project aims to deploy various CNN architectures on virtual FPGA boards.
+          The original architectures written in Keras can be optimized by Vivado HLS to deploy them on FPGA boards.
+          To do this, we coded each model in C language, optimized the calculation using Vivado HLS,
+          and converted to hardware code.
     links:
 
-  - title: Swapping Face and Facial Expressions of People
+  - title: Swapping Facial Expressions of the People in Images
     time: Jan 2018 - Feb 2018
-    institution: Research internship, Alchera Inc., Republic of Korea
-    onesentence: Changing face and facial expressions of different people using the extracted face landmarks.
+    institution: Alchera Inc., Republic of Korea
+    position: Research internship
     details:
       - key: Description
-        value: dfdf
-      - key: Role
-        value: dfdf
+        value: |
+          Changing facial expressions of different people using the extracted facial landmarks.
+          By dividing a face area with Delaunary trangulation, we can exchange each position-matched triangle
+          after linear tranfsormation. We also applied several algorithms to compensate the distortion by
+          the tranformation, especially for tooth and mouth expressions.
     links:
 
 #   technologies_used: | 

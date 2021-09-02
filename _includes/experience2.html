@@ -8,7 +8,7 @@
             <div class="item-inst">{{exp.institution}}
                 <span class="time">{{exp.time}}</span>
             </div>
-            <div class="item-content">{{exp.onesentence}}
+            <div class="item-content">{{exp.position}}
                 {% if exp.details or exp.links %}
                     <span class="bttn-loc">
                         <input class="bttn" type="button" onclick="growDiv('exp-grow{{forloop.index}}', 'exp-button{{forloop.index}}')" value="details" id="exp-button{{forloop.index}}">
@@ -19,13 +19,13 @@
                 <div class='measuringWrapper'>
                     {% if exp.details %}
                         {% for det in exp.details %}
-                            <div class="item-content">
+                            <div class="detail-content">
                                 <span class="detail-key">{{det.key}}: </span>{{det.value}}
                             </div>
                         {% endfor %}
                     {% endif %}
                     {% if exp.links %}
-                        <div class="item-content">
+                        <div class="detail-content">
                             <span class="detail-key">Materials: </span>
                             {% for link in exp.links %}
                                 [<a class="content-link" href="{{link.value}}">{{link.key}}</a>]

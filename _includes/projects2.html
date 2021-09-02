@@ -19,13 +19,13 @@
                 <div class='measuringWrapper'>
                     {% if p.details %}
                         {% for det in p.details %}
-                            <div class="item-content">
+                            <div class="detail-content">
                                 <span class="detail-key">{{det.key}}: </span>{{det.value}}
                             </div>
                         {% endfor %}
                     {% endif %}
                     {% if p.links %}
-                        <div class="item-content">
+                        <div class="detail-content">
                             <span class="detail-key">Materials: </span>
                             {% for link in p.links %}
                                 [<a class="content-link" href="{{link.value}}">{{link.key}}</a>]

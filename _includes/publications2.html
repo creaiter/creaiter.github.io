@@ -17,13 +17,13 @@
                 <div class='measuringWrapper'>
                     {% if pub.details %}
                         {% for det in pub.details %}
-                            <div class="item-content">
+                            <div class="detail-content">
                                 <span class="detail-key">{{det.key}}: </span>{{det.value}}
                             </div>
                         {% endfor %}
                     {% endif %}
                     {% if pub.links %}
-                        <div class="item-content">
+                        <div class="detail-content">
                             <span class="detail-key">Materials: </span>
                             {% for link in pub.links %}
                                 [<a class="content-link" href="{{link.value}}">{{link.key}}</a>]
