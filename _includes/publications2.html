@@ -7,7 +7,7 @@
             <div class="item-title">{{pub.title}}</div>
             <div class="item-content">{{pub.authors}}</div>
             <div class="item-inst">{{pub.conference}}
-                {% if pub.keywords or pub.onesentence or pub.links %}
+                {% if pub.details or pub.links %}
                     <span class="bttn-loc">
                         <input class="bttn" type="button" onclick="growDiv('pub-grow{{forloop.index}}', 'pub-button{{forloop.index}}')" value="details" id="pub-button{{forloop.index}}">
                     </span>
@@ -15,15 +15,12 @@
             </div>
             <div class="detail" id="pub-grow{{forloop.index}}">
                 <div class='measuringWrapper'>
-                    {% if pub.keywords %}
-                        <div class="item-content">
-                            <span class="detail-key">Keywords: </span>{{pub.keywords}}
-                        </div>
-                    {% endif %}
-                    {% if pub.onesentence %}
-                        <div class="item-content">
-                            <span class="detail-key">Summary: </span>{{pub.onesentence}}
-                        </div>
+                    {% if pub.details %}
+                        {% for det in pub.details %}
+                            <div class="item-content">
+                                <span class="detail-key">{{det.key}}: </span>{{det.value}}
+                            </div>
+                        {% endfor %}
                     {% endif %}
                     {% if pub.links %}
                         <div class="item-content">

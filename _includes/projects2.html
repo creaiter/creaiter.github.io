@@ -9,7 +9,7 @@
                 <span class="time">{{p.time}}</span>
             </div>
             <div class="item-content">{{p.onesentence}}
-                {% if p.description or p.role or p.links %}
+                {% if p.details or p.links %}
                     <span class="bttn-loc">
                         <input class="bttn" type="button" onclick="growDiv('p-grow{{forloop.index}}', 'p-button{{forloop.index}}')" value="details" id="p-button{{forloop.index}}">
                     </span>
@@ -17,15 +17,12 @@
             </div>
             <div class="detail" id="p-grow{{forloop.index}}">
                 <div class='measuringWrapper'>
-                    {% if p.description %}
-                        <div class="item-content">
-                            <span class="detail-key">Description: </span>{{p.description}}
-                        </div>
-                    {% endif %}
-                    {% if p.role %}
-                        <div class="item-content">
-                            <span class="detail-key">Roles: </span>{{p.role}}
-                        </div>
+                    {% if p.details %}
+                        {% for det in p.details %}
+                            <div class="item-content">
+                                <span class="detail-key">{{det.key}}: </span>{{det.value}}
+                            </div>
+                        {% endfor %}
                     {% endif %}
                     {% if p.links %}
                         <div class="item-content">

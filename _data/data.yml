@@ -57,24 +57,37 @@ publications:
   - title: "Centralized Quantization: Preserving a Few Large Weights to Relieve theDegradation in Accuracy by Ternary Weights"
     authors: Jinbae Park, Sung-Ho Bae
     conference: "[Submitted]"
-    keywords: 
-    onesentence: 
+    details:
     links: 
 
   - title: Distilling Global and Local Logits with Densely Connected Relations
     authors: Youmin Kim, Jinbae Park, YounHo Jang, Muhammad Ali, Tae-Hyun Oh, Sung-Ho Bae
     conference: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021
-    keywords: Sound Classification, Data Augmentation, Augmentation Search
-    onesentence: 
+    details:
+      - key: Keywords
+        value: Logit Distillation, Local Information
+      - key: Summary
+        value: |
+          In prevalent knowledge distillation for image classificiation,
+          global logits computed by global average pooling are generally utilized to transfer this knowledge from teacher to student.
+          In this work, to overcome the limited information in spatial context,
+          we also transfer local knowledge, exploiting local logits computed by spatial average pooling.
+          The richness of local information shows favorable accuracy improvement against the state-of-the-art methods.
     links: 
-      - key: TBC
+      - key: </a>TBC<a>
         value:
 
   - title: Search for Optimal Data Augmentation Policy for Environmental Sound Classification with Deep Neural Networks
     authors: Jinbae Park, Teerath Kumar, Sung-Ho Bae
     conference: Journal of Broadcast Engineering (JBE), 25.6, 2020
-    keywords: Sound Classification, Data Augmentation, Augmentation Search
-    onesentence: We propose a finite way to find an augmentation policy to improve the accuracy in the environmental sound classificiation task.
+    details:
+      - key: Keywords
+        value: Sound Classification, Data Augmentation, Augmentation Search
+      - key: Summary
+        value: |
+          This paper aims to explore the search for optimal augmentation policy in the environmental sound classification task.
+          By selectively combining the augmentation methods, such as adding noise, pitch shift, time stretch, etc, we could outperform the
+          state-of-the-art methods on the ESC-50 dataset.
     links: 
       - key: article
         value: "https://www.koreascience.or.kr/article/JAKO202001955917251.page"
@@ -88,9 +101,14 @@ projects:
   - title: A Study on Compression of Deep Neural Networks by Quantization and Pruning
     time: Jan 2021 - Dec 2021
     institution: IITP, Republic of Korea
-    onesentence: Deployment of lightened networks on edge devices, such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.
-    description: dfdf
-    role: dfdfsdf
+    onesentence: 
+    details:
+      - key: Description
+        value: Deployment of lightened networks on edge devices, such as Google Pixel 3, Raspberry Pi 4, and Nvidia Jetson Xavier NX.
+      - key: Role
+        value: dfdf
+      - key: Technologies used
+        value: Python, Tensorflow, Keras, Matlab
     links:
       - key: github
         value: https://github.com/mlvc-lab/Edge_Deployment
@@ -99,8 +117,11 @@ projects:
     time: Aug 2020 - Dec 2020
     institution: IITP, Republic of Korea
     onesentence: 4th place prize in the challenge.
-    description: dfdf
-    role: dfdfsdf
+    details:
+      - key: Description
+        value: dfdf
+      - key: Role
+        value: dfdf
     links:
       - key: github
         value: https://github.com/mlvc-lab/AIChallenge_4th_Round1
@@ -109,8 +130,11 @@ projects:
     time: Sept 2019 - Dec 2020
     institution: IITP, Republic of Korea
     onesentence: 1st place prize in the challenge.
-    description: dfdf
-    role: dfdfsdf
+    details:
+      - key: Description
+        value: dfdf
+      - key: Role
+        value: dfdf
     links:
       - key: github
         value: https://github.com/IRIS-AUDIO/challenge
@@ -122,8 +146,11 @@ experience:
     time: Sept 2018 - Jan 2019
     institution: Research internship, Hyprsense Inc., USA
     onesentence: Building a compressed cascaded regression model with the sparsification of docomposed weight matrices by L1 based regularization methods.
-    description: dfdf
-    role: dfdfsdf
+    details:
+      - key: Description
+        value: dfdf
+      - key: Role
+        value: dfdf
     links:
       - key: blog
         value: https://medium.com/@hyprsense/compressing-a-cascaded-regression-model-how-to-sparsify-the-matrix-4c4013cee47c
@@ -132,16 +159,22 @@ experience:
     time: Jun 2018 - Oct 2018
     institution: Research assistant, Prof. Nikil Dutt, University of California Irvine, USA
     onesentence: Optimizing C programs of CNN models with Vivado HLS to deploy on FPGA boards.
-    description: dfdf
-    role: dfdfsdf
+    details:
+      - key: Description
+        value: dfdf
+      - key: Role
+        value: dfdf
     links:
 
   - title: Swapping Face and Facial Expressions of People
     time: Jan 2018 - Feb 2018
     institution: Research internship, Alchera Inc., Republic of Korea
     onesentence: Changing face and facial expressions of different people using the extracted face landmarks.
-    description: dfdf
-    role: dfdfsdf
+    details:
+      - key: Description
+        value: dfdf
+      - key: Role
+        value: dfdf
     links:
 
 #   technologies_used: | 
