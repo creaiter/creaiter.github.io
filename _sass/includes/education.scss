@@ -4,7 +4,7 @@
         @include sub-header;
     }
     .education-item {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         .degree {
             @include body-text;
             font-weight: bold;
