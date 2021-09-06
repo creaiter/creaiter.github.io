@@ -3,7 +3,7 @@
         @include header;
     }
     .items {
-        margin-bottom: 13px;
+        margin-bottom: 18px;
         // For each item
         .item-title {
             @include body-text; 
