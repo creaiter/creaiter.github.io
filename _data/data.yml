@@ -54,7 +54,7 @@ profile: |
 publications:
   # - title: Selectively Regularized Pruning
   
-  - title: [Working Title] Improving the Efficiency of Quantization with Sparse Large Weights
+  - title: "[Working Title] Improving the Efficiency of Quantization with Sparse Large Weights"
     authors: Jinbae Park, Sung-Ho Bae
     conference: "[Submitted]"
     details:
