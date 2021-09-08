@@ -53,8 +53,7 @@ profile: |
 # Publications
 publications:
   # - title: Selectively Regularized Pruning
-
-  # Centralized Quantization: Preserving a Few Large Weights to Relieve the Degradation in Accuracy by Ternary Weights
+  
   - title: [Working Title] Improving the Efficiency of Quantization with Sparse Large Weights
     authors: Jinbae Park, Sung-Ho Bae
     conference: "[Submitted]"
