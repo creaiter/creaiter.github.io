@@ -136,7 +136,7 @@ projects:
         value: https://github.com/mlvc-lab/AIChallenge_4th_Round1
 
   - title: A Challenge for Accurate Voice Source Localization on Drones based on Deep Neural Networks
-    time: Sept 2019 - Dec 2020
+    time: Sep 2019 - Dec 2020
     institution: IITP, Republic of Korea
     onesentence: 1st place prize in the challenge.
     details:
@@ -160,7 +160,7 @@ projects:
 # Experience
 experience:
   - title: Compressing a Cascaded Regression Model for Facial Landmark Detection
-    time: Sept 2018 - Jan 2019
+    time: Sep 2018 - Dec 2018
     institution: Hyprsense Inc., USA
     position: Research internship
     details:
@@ -176,7 +176,7 @@ experience:
         value: https://medium.com/@hyprsense/compressing-a-cascaded-regression-model-how-to-sparsify-the-matrix-4c4013cee47c
   
   - title: Developing of C Program for Accelerating Convolutional Neural Networks on FPGA boards
-    time: Jun 2018 - Oct 2018
+    time: July 2018 - Sep 2018
     institution: Prof. Nikil Dutt, University of California Irvine, USA
     position: Research assistant
     details:
