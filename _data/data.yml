@@ -74,7 +74,24 @@ publications:
           we also transfer local knowledge, exploiting local logits computed by spatial average pooling.
           The richness of local information shows favorable accuracy improvement against the state-of-the-art methods.
     links: 
-      - key: </a>TBC<a>
+      - key: </a>TBU<a>
+        value:
+
+  - title: Binary-Classifiers-Enabled Filters for Semi-Supervised Learning
+    authors: Teerath Kumar, Jinbae Park, Muhammad Salman Ali, A F M Shahab Uddin, Jong Hwan Ko, Sung-Ho Bae
+    conference: IEEE Access, 2021
+    details:
+      - key: Keywords
+        value: Semi-Supervised Learning, Binary Classifiers
+      - key: Summary
+        value: |
+          There is a concern about mis-classificiation in pseudo-labeling of semi-supervised learning.
+          In this paper, for labeling the ublabeled data, we suggest to utilize binary classifiers as data filters for each class,
+          Since, the binary classifiers can be dedicated to each class, it is possible to reduce the mis-labeling with higher generalization performance.
+          Comprehensive experiments are performed to demonstrate the effectiveness of our approach on a variety of domains, including,
+          image, text, and audio classification. 
+    links: 
+      - key: </a>TBU<a>
         value:
 
   - title: Search for Optimal Data Augmentation Policy for Environmental Sound Classification with Deep Neural Networks
