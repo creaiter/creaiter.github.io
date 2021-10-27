@@ -14,7 +14,7 @@ contact:
 interests:
   - domain: Network Compression
   - domain: Efficient Learning
-  - domain: Deployment on Edge
+  - domain: Deployment on Edges
 
 education:
   - degree: MS in Computer Science
@@ -74,8 +74,12 @@ publications:
           we also transfer local knowledge, exploiting local logits computed by spatial average pooling.
           The richness of local information shows favorable accuracy improvement against the state-of-the-art methods.
     links: 
-      - key: </a>TBU<a>
-        value:
+      - key: article
+        value: "https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Distilling_Global_and_Local_Logits_With_Densely_Connected_Relations_ICCV_2021_paper.html"
+      - key: pdf
+        value: "https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Distilling_Global_and_Local_Logits_With_Densely_Connected_Relations_ICCV_2021_paper.pdf"
+      - key: supp
+        value: "https://openaccess.thecvf.com/content/ICCV2021/supplemental/Kim_Distilling_Global_and_ICCV_2021_supplemental.pdf"
 
   - title: Binary-Classifiers-Enabled Filters for Semi-Supervised Learning
     authors: Teerath Kumar, Jinbae Park, Muhammad Salman Ali, A F M Shahab Uddin, Jong Hwan Ko, Sung-Ho Bae
