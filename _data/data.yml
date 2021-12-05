@@ -56,7 +56,7 @@ publications:
   
   - title: "[Working Title] Improving the Efficiency of Quantization with Sparse Large Weights"
     authors: Jinbae Park, Sung-Ho Bae
-    conference: "[Submitted]"
+    conference: #"[Submitted]"
     details:
     links: 
 
@@ -80,6 +80,8 @@ publications:
         value: "https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Distilling_Global_and_Local_Logits_With_Densely_Connected_Relations_ICCV_2021_paper.pdf"
       - key: supp
         value: "https://openaccess.thecvf.com/content/ICCV2021/supplemental/Kim_Distilling_Global_and_ICCV_2021_supplemental.pdf"
+      - key: code
+        value: "https://github.com/Youmin-Kim/GLD"
 
   - title: Binary-Classifiers-Enabled Filters for Semi-Supervised Learning
     authors: Teerath Kumar, Jinbae Park, Muhammad Salman Ali, A F M Shahab Uddin, Jong Hwan Ko, Sung-Ho Bae
@@ -95,8 +97,8 @@ publications:
           Comprehensive experiments are performed to demonstrate the effectiveness of our approach on a variety of domains, including,
           image, text, and audio classification. 
     links: 
-      - key: </a>TBU<a>
-        value:
+      - key: article
+        value: "https://ieeexplore.ieee.org/abstract/document/9594804"
 
   - title: Search for Optimal Data Augmentation Policy for Environmental Sound Classification with Deep Neural Networks
     authors: Jinbae Park, Teerath Kumar, Sung-Ho Bae
