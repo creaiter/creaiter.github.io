@@ -153,7 +153,7 @@ projects:
           i) Taking responsibility for quantization implementation to reduce model size;
           ii) Combinating the techniques, such as quantization, pruning, and distillation with managing the overall codes;
           iii) Applying NVIDIA DALI and TensorRT to accelerate the inference procedure; and
-          iV) Optimizing minor factors, such as image size, confidence threshold, removing letter-box, etc.
+          iv) Optimizing minor factors, such as image size, confidence threshold, removing letter-box, etc.
     links:
       - key: github
         value: https://github.com/mlvc-lab/AIChallenge_4th_Round1
