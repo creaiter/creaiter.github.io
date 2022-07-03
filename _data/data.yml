@@ -54,10 +54,14 @@ profile: |
 publications:
   # - title: Selectively Regularized Pruning
   
-  - title: "[Working Title] Improving the Efficiency of Quantization with Sparse Large Weights"
+  - title: "Improving the Efficiency of Quantization with Sparse Large Weights"
     authors: Jinbae Park, Sung-Ho Bae
-    conference: #"[Submitted]"
+    conference: Master Thesis
     details:
+      - key: Summary
+        value: |
+          In this paper, we propose a centralized quantization method which aims to sparsify almost non-ternary weights through regularization
+          during quantization aware training. Moreover, the numerous ternary weights after centralization allows us to further reduce the model size in memory.
     links: 
 
   - title: Distilling Global and Local Logits with Densely Connected Relations
