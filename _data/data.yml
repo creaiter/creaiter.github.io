@@ -47,7 +47,7 @@ skills:
 
 # Profile
 profile: |
-  My research domain is highly related to obtaining efficient neural networks by applying compression techniques, such as
+  Currently, I'm researcing and developing deep learning models for pose estimation and action recognition. In master's degree, I studied for obtaining efficient neural networks by applying compression techniques, such as
   quantization, pruning, and distillation, for deployment of the networks on edge devices.
 
 
