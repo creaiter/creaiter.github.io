@@ -58,10 +58,12 @@ publications:
     authors: Jinbae Park, Sung-Ho Bae
     conference: Master Thesis
     details:
+      - key: Keywords
+        value: Quantization Aware Training, Centralized Quantization
       - key: Summary
         value: |
           In this paper, we propose a centralized quantization method which aims to sparsify almost non-ternary weights through regularization
-          during quantization aware training. Moreover, the numerous ternary weights after centralization allows us to further reduce the model size in memory.
+          during quantization aware training. Moreover, the numerous ternary weights after centralization allows us to further reduce the model size in memory with improved efficiency.
     links: 
 
   - title: Distilling Global and Local Logits with Densely Connected Relations
